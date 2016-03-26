@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4DAC4BC1C989DCA003239D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC4BB1C989DCA003239D0 /* main.m */; };
+		E4DAC4BF1C989DCA003239D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC4BE1C989DCA003239D0 /* AppDelegate.m */; };
+		E4DAC4C81C989DCA003239D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DAC4C61C989DCA003239D0 /* Main.storyboard */; };
+		E4DAC4CA1C989DCA003239D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DAC4C91C989DCA003239D0 /* Assets.xcassets */; };
+		E4DAC4F01C98C87A003239D0 /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC4EF1C98C87A003239D0 /* VideosViewController.m */; };
+		E4DAC4FB1C98CAEE003239D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC4FA1C98CAEE003239D0 /* main.m */; };
+		E4DAC4FE1C98CAEE003239D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC4FD1C98CAEE003239D0 /* AppDelegate.m */; };
+		E4DAC5041C98CAEE003239D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DAC5021C98CAEE003239D0 /* Main.storyboard */; };
+		E4DAC5061C98CAEE003239D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DAC5051C98CAEE003239D0 /* Assets.xcassets */; };
+		E4DAC5091C98CAEE003239D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DAC5071C98CAEE003239D0 /* LaunchScreen.storyboard */; };
+		E4DAC5121C98CC0D003239D0 /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5111C98CC0D003239D0 /* VideosViewController.m */; };
+		E4DAC52B1C98CF49003239D0 /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC51D1C98CF49003239D0 /* XCDYouTubeClient.m */; };
+		E4DAC52C1C98CF49003239D0 /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC51D1C98CF49003239D0 /* XCDYouTubeClient.m */; };
+		E4DAC52D1C98CF49003239D0 /* XCDYouTubeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5201C98CF49003239D0 /* XCDYouTubeLogger.m */; };
+		E4DAC52E1C98CF49003239D0 /* XCDYouTubeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5201C98CF49003239D0 /* XCDYouTubeLogger.m */; };
+		E4DAC52F1C98CF49003239D0 /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5231C98CF49003239D0 /* XCDYouTubePlayerScript.m */; };
+		E4DAC5301C98CF49003239D0 /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5231C98CF49003239D0 /* XCDYouTubePlayerScript.m */; };
+		E4DAC5311C98CF49003239D0 /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5261C98CF49003239D0 /* XCDYouTubeVideo.m */; };
+		E4DAC5321C98CF49003239D0 /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5261C98CF49003239D0 /* XCDYouTubeVideo.m */; };
+		E4DAC5331C98CF49003239D0 /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5281C98CF49003239D0 /* XCDYouTubeVideoOperation.m */; };
+		E4DAC5341C98CF49003239D0 /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5281C98CF49003239D0 /* XCDYouTubeVideoOperation.m */; };
+		E4DAC5351C98CF49003239D0 /* XCDYouTubeVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC52A1C98CF49003239D0 /* XCDYouTubeVideoWebpage.m */; };
+		E4DAC5361C98CF49003239D0 /* XCDYouTubeVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC52A1C98CF49003239D0 /* XCDYouTubeVideoWebpage.m */; };
+		E4DAC53A1C9EF164003239D0 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DAC5391C9EF164003239D0 /* AVKit.framework */; };
+		E4DAC53C1C9EF175003239D0 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DAC53B1C9EF175003239D0 /* AVKit.framework */; };
+		E4DAC5401C9EF3FC003239D0 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC53F1C9EF3FC003239D0 /* Movie.m */; };
+		E4DAC5411C9EF3FC003239D0 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC53F1C9EF3FC003239D0 /* Movie.m */; };
+		E4DAC5451C9EF622003239D0 /* FetchMoviesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5441C9EF622003239D0 /* FetchMoviesRequest.m */; };
+		E4DAC5461C9EF622003239D0 /* FetchMoviesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5441C9EF622003239D0 /* FetchMoviesRequest.m */; };
+		E4DAC54C1CA07E27003239D0 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5491CA07E27003239D0 /* NSString+Utils.m */; };
+		E4DAC54D1CA07E27003239D0 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5491CA07E27003239D0 /* NSString+Utils.m */; };
+		E4DAC54E1CA07E27003239D0 /* NSURL+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC54B1CA07E27003239D0 /* NSURL+Utils.m */; };
+		E4DAC54F1CA07E27003239D0 /* NSURL+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC54B1CA07E27003239D0 /* NSURL+Utils.m */; };
+		E4DAC5531CA0821E003239D0 /* BaseVideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5511CA0821E003239D0 /* BaseVideosViewController.m */; };
+		E4DAC5541CA08291003239D0 /* BaseVideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5511CA0821E003239D0 /* BaseVideosViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4DAC4B71C989DCA003239D0 /* Apple TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DAC4BB1C989DCA003239D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4DAC4BD1C989DCA003239D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4DAC4BE1C989DCA003239D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4DAC4C71C989DCA003239D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4DAC4C91C989DCA003239D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4DAC4CB1C989DCA003239D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DAC4EE1C98C87A003239D0 /* VideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosViewController.h; sourceTree = "<group>"; };
+		E4DAC4EF1C98C87A003239D0 /* VideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosViewController.m; sourceTree = "<group>"; };
+		E4DAC4F71C98CAED003239D0 /* iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DAC4FA1C98CAEE003239D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4DAC4FC1C98CAEE003239D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4DAC4FD1C98CAEE003239D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4DAC5031C98CAEE003239D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4DAC5051C98CAEE003239D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4DAC5081C98CAEE003239D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4DAC50A1C98CAEE003239D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DAC5101C98CC0D003239D0 /* VideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosViewController.h; sourceTree = "<group>"; };
+		E4DAC5111C98CC0D003239D0 /* VideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosViewController.m; sourceTree = "<group>"; };
+		E4DAC51C1C98CF49003239D0 /* XCDYouTubeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeClient.h; sourceTree = "<group>"; };
+		E4DAC51D1C98CF49003239D0 /* XCDYouTubeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeClient.m; sourceTree = "<group>"; };
+		E4DAC51E1C98CF49003239D0 /* XCDYouTubeError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeError.h; sourceTree = "<group>"; };
+		E4DAC51F1C98CF49003239D0 /* XCDYouTubeLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeLogger.h; sourceTree = "<group>"; };
+		E4DAC5201C98CF49003239D0 /* XCDYouTubeLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeLogger.m; sourceTree = "<group>"; };
+		E4DAC5211C98CF49003239D0 /* XCDYouTubeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeOperation.h; sourceTree = "<group>"; };
+		E4DAC5221C98CF49003239D0 /* XCDYouTubePlayerScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubePlayerScript.h; sourceTree = "<group>"; };
+		E4DAC5231C98CF49003239D0 /* XCDYouTubePlayerScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubePlayerScript.m; sourceTree = "<group>"; };
+		E4DAC5241C98CF49003239D0 /* XCDYouTubeVideo+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCDYouTubeVideo+Private.h"; sourceTree = "<group>"; };
+		E4DAC5251C98CF49003239D0 /* XCDYouTubeVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeVideo.h; sourceTree = "<group>"; };
+		E4DAC5261C98CF49003239D0 /* XCDYouTubeVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeVideo.m; sourceTree = "<group>"; };
+		E4DAC5271C98CF49003239D0 /* XCDYouTubeVideoOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeVideoOperation.h; sourceTree = "<group>"; };
+		E4DAC5281C98CF49003239D0 /* XCDYouTubeVideoOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeVideoOperation.m; sourceTree = "<group>"; };
+		E4DAC5291C98CF49003239D0 /* XCDYouTubeVideoWebpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeVideoWebpage.h; sourceTree = "<group>"; };
+		E4DAC52A1C98CF49003239D0 /* XCDYouTubeVideoWebpage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeVideoWebpage.m; sourceTree = "<group>"; };
+		E4DAC5391C9EF164003239D0 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		E4DAC53B1C9EF175003239D0 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
+		E4DAC53E1C9EF3FC003239D0 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		E4DAC53F1C9EF3FC003239D0 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		E4DAC5431C9EF622003239D0 /* FetchMoviesRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchMoviesRequest.h; sourceTree = "<group>"; };
+		E4DAC5441C9EF622003239D0 /* FetchMoviesRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchMoviesRequest.m; sourceTree = "<group>"; };
+		E4DAC5481CA07E27003239D0 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		E4DAC5491CA07E27003239D0 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		E4DAC54A1CA07E27003239D0 /* NSURL+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Utils.h"; sourceTree = "<group>"; };
+		E4DAC54B1CA07E27003239D0 /* NSURL+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Utils.m"; sourceTree = "<group>"; };
+		E4DAC5511CA0821E003239D0 /* BaseVideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVideosViewController.m; sourceTree = "<group>"; };
+		E4DAC5521CA0821E003239D0 /* BaseVideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVideosViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4DAC4B41C989DCA003239D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DAC53A1C9EF164003239D0 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DAC4F41C98CAED003239D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DAC53C1C9EF175003239D0 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4DAC4AE1C989DCA003239D0 = {
+			isa = PBXGroup;
+			children = (
+				E4DAC5131C98CDB3003239D0 /* Core */,
+				E4DAC4B91C989DCA003239D0 /* NSConfAr2016 tvOS Demo App */,
+				E4DAC4F81C98CAEE003239D0 /* NSConfAr2016 tvOS Demo App (iOS) */,
+				E4DAC4B81C989DCA003239D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4DAC4B81C989DCA003239D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4DAC4B71C989DCA003239D0 /* Apple TV.app */,
+				E4DAC4F71C98CAED003239D0 /* iPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4DAC4B91C989DCA003239D0 /* NSConfAr2016 tvOS Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				E4DAC5391C9EF164003239D0 /* AVKit.framework */,
+				E4DAC4BD1C989DCA003239D0 /* AppDelegate.h */,
+				E4DAC4BE1C989DCA003239D0 /* AppDelegate.m */,
+				E4DAC4C61C989DCA003239D0 /* Main.storyboard */,
+				E4DAC4EE1C98C87A003239D0 /* VideosViewController.h */,
+				E4DAC4EF1C98C87A003239D0 /* VideosViewController.m */,
+				E4DAC4C91C989DCA003239D0 /* Assets.xcassets */,
+				E4DAC4CB1C989DCA003239D0 /* Info.plist */,
+				E4DAC4BA1C989DCA003239D0 /* Supporting Files */,
+			);
+			path = "NSConfAr2016 tvOS Demo App";
+			sourceTree = "<group>";
+		};
+		E4DAC4BA1C989DCA003239D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4DAC4BB1C989DCA003239D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4DAC4F81C98CAEE003239D0 /* NSConfAr2016 tvOS Demo App (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				E4DAC53B1C9EF175003239D0 /* AVKit.framework */,
+				E4DAC4FC1C98CAEE003239D0 /* AppDelegate.h */,
+				E4DAC4FD1C98CAEE003239D0 /* AppDelegate.m */,
+				E4DAC5021C98CAEE003239D0 /* Main.storyboard */,
+				E4DAC5101C98CC0D003239D0 /* VideosViewController.h */,
+				E4DAC5111C98CC0D003239D0 /* VideosViewController.m */,
+				E4DAC5051C98CAEE003239D0 /* Assets.xcassets */,
+				E4DAC5071C98CAEE003239D0 /* LaunchScreen.storyboard */,
+				E4DAC50A1C98CAEE003239D0 /* Info.plist */,
+				E4DAC4F91C98CAEE003239D0 /* Supporting Files */,
+			);
+			path = "NSConfAr2016 tvOS Demo App (iOS)";
+			sourceTree = "<group>";
+		};
+		E4DAC4F91C98CAEE003239D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4DAC4FA1C98CAEE003239D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4DAC5131C98CDB3003239D0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E4DAC5501CA081FC003239D0 /* Use case */,
+				E4DAC5471CA07E27003239D0 /* Utils */,
+				E4DAC5421C9EF60D003239D0 /* Networking */,
+				E4DAC53D1C9EF3E6003239D0 /* Model */,
+				E4DAC51B1C98CF49003239D0 /* XCDYouTubeKit */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E4DAC51B1C98CF49003239D0 /* XCDYouTubeKit */ = {
+			isa = PBXGroup;
+			children = (
+				E4DAC51C1C98CF49003239D0 /* XCDYouTubeClient.h */,
+				E4DAC51D1C98CF49003239D0 /* XCDYouTubeClient.m */,
+				E4DAC51E1C98CF49003239D0 /* XCDYouTubeError.h */,
+				E4DAC51F1C98CF49003239D0 /* XCDYouTubeLogger.h */,
+				E4DAC5201C98CF49003239D0 /* XCDYouTubeLogger.m */,
+				E4DAC5211C98CF49003239D0 /* XCDYouTubeOperation.h */,
+				E4DAC5221C98CF49003239D0 /* XCDYouTubePlayerScript.h */,
+				E4DAC5231C98CF49003239D0 /* XCDYouTubePlayerScript.m */,
+				E4DAC5241C98CF49003239D0 /* XCDYouTubeVideo+Private.h */,
+				E4DAC5251C98CF49003239D0 /* XCDYouTubeVideo.h */,
+				E4DAC5261C98CF49003239D0 /* XCDYouTubeVideo.m */,
+				E4DAC5271C98CF49003239D0 /* XCDYouTubeVideoOperation.h */,
+				E4DAC5281C98CF49003239D0 /* XCDYouTubeVideoOperation.m */,
+				E4DAC5291C98CF49003239D0 /* XCDYouTubeVideoWebpage.h */,
+				E4DAC52A1C98CF49003239D0 /* XCDYouTubeVideoWebpage.m */,
+			);
+			path = XCDYouTubeKit;
+			sourceTree = "<group>";
+		};
+		E4DAC53D1C9EF3E6003239D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4DAC53E1C9EF3FC003239D0 /* Movie.h */,
+				E4DAC53F1C9EF3FC003239D0 /* Movie.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E4DAC5421C9EF60D003239D0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E4DAC5431C9EF622003239D0 /* FetchMoviesRequest.h */,
+				E4DAC5441C9EF622003239D0 /* FetchMoviesRequest.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		E4DAC5471CA07E27003239D0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E4DAC5481CA07E27003239D0 /* NSString+Utils.h */,
+				E4DAC5491CA07E27003239D0 /* NSString+Utils.m */,
+				E4DAC54A1CA07E27003239D0 /* NSURL+Utils.h */,
+				E4DAC54B1CA07E27003239D0 /* NSURL+Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E4DAC5501CA081FC003239D0 /* Use case */ = {
+			isa = PBXGroup;
+			children = (
+				E4DAC5521CA0821E003239D0 /* BaseVideosViewController.h */,
+				E4DAC5511CA0821E003239D0 /* BaseVideosViewController.m */,
+			);
+			name = "Use case";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4DAC4B61C989DCA003239D0 /* Apple TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4DAC4CE1C989DCA003239D0 /* Build configuration list for PBXNativeTarget "Apple TV" */;
+			buildPhases = (
+				E4DAC4B31C989DCA003239D0 /* Sources */,
+				E4DAC4B41C989DCA003239D0 /* Frameworks */,
+				E4DAC4B51C989DCA003239D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apple TV";
+			productName = "NSConfAr2016 tvOS Demo App";
+			productReference = E4DAC4B71C989DCA003239D0 /* Apple TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4DAC4F61C98CAED003239D0 /* iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4DAC50B1C98CAEE003239D0 /* Build configuration list for PBXNativeTarget "iPhone" */;
+			buildPhases = (
+				E4DAC4F31C98CAED003239D0 /* Sources */,
+				E4DAC4F41C98CAED003239D0 /* Frameworks */,
+				E4DAC4F51C98CAED003239D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhone;
+			productName = "NSConfAr2016 tvOS Demo App (iOS)";
+			productReference = E4DAC4F71C98CAED003239D0 /* iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4DAC4AF1C989DCA003239D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Diego Sebastian Mera";
+				TargetAttributes = {
+					E4DAC4B61C989DCA003239D0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E4DAC4F61C98CAED003239D0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = E4DAC4B21C989DCA003239D0 /* Build configuration list for PBXProject "NSConfAr2016 tvOS Demo App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4DAC4AE1C989DCA003239D0;
+			productRefGroup = E4DAC4B81C989DCA003239D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4DAC4B61C989DCA003239D0 /* Apple TV */,
+				E4DAC4F61C98CAED003239D0 /* iPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4DAC4B51C989DCA003239D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DAC4CA1C989DCA003239D0 /* Assets.xcassets in Resources */,
+				E4DAC4C81C989DCA003239D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DAC4F51C98CAED003239D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DAC5091C98CAEE003239D0 /* LaunchScreen.storyboard in Resources */,
+				E4DAC5061C98CAEE003239D0 /* Assets.xcassets in Resources */,
+				E4DAC5041C98CAEE003239D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4DAC4B31C989DCA003239D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DAC5311C98CF49003239D0 /* XCDYouTubeVideo.m in Sources */,
+				E4DAC5331C98CF49003239D0 /* XCDYouTubeVideoOperation.m in Sources */,
+				E4DAC5451C9EF622003239D0 /* FetchMoviesRequest.m in Sources */,
+				E4DAC5401C9EF3FC003239D0 /* Movie.m in Sources */,
+				E4DAC5531CA0821E003239D0 /* BaseVideosViewController.m in Sources */,
+				E4DAC5351C98CF49003239D0 /* XCDYouTubeVideoWebpage.m in Sources */,
+				E4DAC52B1C98CF49003239D0 /* XCDYouTubeClient.m in Sources */,
+				E4DAC4F01C98C87A003239D0 /* VideosViewController.m in Sources */,
+				E4DAC54E1CA07E27003239D0 /* NSURL+Utils.m in Sources */,
+				E4DAC54C1CA07E27003239D0 /* NSString+Utils.m in Sources */,
+				E4DAC4BF1C989DCA003239D0 /* AppDelegate.m in Sources */,
+				E4DAC4BC1C989DCA003239D0 /* main.m in Sources */,
+				E4DAC52D1C98CF49003239D0 /* XCDYouTubeLogger.m in Sources */,
+				E4DAC52F1C98CF49003239D0 /* XCDYouTubePlayerScript.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DAC4F31C98CAED003239D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DAC5321C98CF49003239D0 /* XCDYouTubeVideo.m in Sources */,
+				E4DAC5341C98CF49003239D0 /* XCDYouTubeVideoOperation.m in Sources */,
+				E4DAC5461C9EF622003239D0 /* FetchMoviesRequest.m in Sources */,
+				E4DAC5541CA08291003239D0 /* BaseVideosViewController.m in Sources */,
+				E4DAC5411C9EF3FC003239D0 /* Movie.m in Sources */,
+				E4DAC5361C98CF49003239D0 /* XCDYouTubeVideoWebpage.m in Sources */,
+				E4DAC52C1C98CF49003239D0 /* XCDYouTubeClient.m in Sources */,
+				E4DAC5121C98CC0D003239D0 /* VideosViewController.m in Sources */,
+				E4DAC54F1CA07E27003239D0 /* NSURL+Utils.m in Sources */,
+				E4DAC54D1CA07E27003239D0 /* NSString+Utils.m in Sources */,
+				E4DAC4FE1C98CAEE003239D0 /* AppDelegate.m in Sources */,
+				E4DAC4FB1C98CAEE003239D0 /* main.m in Sources */,
+				E4DAC52E1C98CF49003239D0 /* XCDYouTubeLogger.m in Sources */,
+				E4DAC5301C98CF49003239D0 /* XCDYouTubePlayerScript.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4DAC4C61C989DCA003239D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4DAC4C71C989DCA003239D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4DAC5021C98CAEE003239D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4DAC5031C98CAEE003239D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4DAC5071C98CAEE003239D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4DAC5081C98CAEE003239D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4DAC4CC1C989DCA003239D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		E4DAC4CD1C989DCA003239D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4DAC4CF1C989DCA003239D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "NSConfAr2016 tvOS Demo App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSAr.NSConfAr2016-tvOS-Demo-App.tvos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		E4DAC4D01C989DCA003239D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "NSConfAr2016 tvOS Demo App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSAr.NSConfAr2016-tvOS-Demo-App.tvos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		E4DAC50C1C98CAEE003239D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "NSConfAr2016 tvOS Demo App (iOS)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSAr.NSConfAr2016-tvOS-Demo-App.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E4DAC50D1C98CAEE003239D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "NSConfAr2016 tvOS Demo App (iOS)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSAr.NSConfAr2016-tvOS-Demo-App.ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4DAC4B21C989DCA003239D0 /* Build configuration list for PBXProject "NSConfAr2016 tvOS Demo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DAC4CC1C989DCA003239D0 /* Debug */,
+				E4DAC4CD1C989DCA003239D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4DAC4CE1C989DCA003239D0 /* Build configuration list for PBXNativeTarget "Apple TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DAC4CF1C989DCA003239D0 /* Debug */,
+				E4DAC4D01C989DCA003239D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4DAC50B1C98CAEE003239D0 /* Build configuration list for PBXNativeTarget "iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DAC50C1C98CAEE003239D0 /* Debug */,
+				E4DAC50D1C98CAEE003239D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4DAC4AF1C989DCA003239D0 /* Project object */;
+}
