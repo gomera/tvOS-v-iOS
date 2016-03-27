@@ -1,5 +1,5 @@
 # tvOS-v-iOS
-A trivial and simple demonstration about the almost non-existing differences between tvOS and iOS. Please keep in mind that this is not a state of the art code and should be used at your own risk. The primary goal it's to be shown during [NSConfAr 2016](http://nsconfarg.com/).
+A trivial and simple demonstration about the almost non-existing differences between tvOS and iOS. Please keep in mind that this is not a state of the art code and should be used at your own risk. The primary goal it's to be shown during [NSConfAr 2016](http://nsconfarg.com/) as a demo app.
 
 
 ## Setup
