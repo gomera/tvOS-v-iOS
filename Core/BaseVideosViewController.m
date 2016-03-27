@@ -8,6 +8,7 @@
 
 #import "BaseVideosViewController.h"
 #import "FetchMoviesRequest.h"
+#import "YouTubeScrapper.h"
 @import AVKit;
 @import AVFoundation;
 
@@ -78,7 +79,7 @@ static const NSString *ItemStatusContext;
 
 - (void) playMovieAtIndexPath:(NSIndexPath *) indexPath {
     Movie *movie = self.movies[indexPath.row];
-    [movie youtubeURLWithCompletion:^(NSURL *url) {
+    [YouTubeScrapper fetchYouTubeSteramURLFromLink:movie.videoURL withCompletion:^(NSURL *url) {
         if (url != nil) {
             AVPlayerViewController *playerViewController = [AVPlayerViewController new];
             

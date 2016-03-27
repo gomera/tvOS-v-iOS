@@ -17,6 +17,5 @@
 
 
 -(instancetype) initWithDictionary:(NSDictionary*)dictionary;
-- (void) youtubeURLWithCompletion:(void(^)(NSURL *url))completion;
 
 @end

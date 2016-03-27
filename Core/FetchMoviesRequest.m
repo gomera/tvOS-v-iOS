@@ -7,8 +7,10 @@
 //
 
 #import "FetchMoviesRequest.h"
+#import "Constants.h"
 
-#define SERVER_URL_FETCH_MOVIES                 @"http://localhost:8080/movies.js"
+#define SERVER_URL_FETCH_MOVIES                 [NSString stringWithFormat:@"%@/movies.js", BASE_URL]
+
 #define HTTP_ACCEPT_HEADER_FIELD_KEY            @"Accept"
 #define HTTP_ACCEPT_HEADER_FIELD_VALUE          @"application/json"
 #define HTTP_CONTENT_TYPE_HEADER_FIELD_KEY      @"Content-Type"
