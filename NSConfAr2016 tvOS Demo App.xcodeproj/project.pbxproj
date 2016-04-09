@@ -44,7 +44,6 @@
 		E4DAC5541CA08291003239D0 /* BaseVideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC5511CA0821E003239D0 /* BaseVideosViewController.m */; };
 		E4DAC55D1CA7EECE003239D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC55C1CA7EECE003239D0 /* main.m */; };
 		E4DAC5601CA7EECE003239D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAC55F1CA7EECE003239D0 /* AppDelegate.m */; };
-		E4DAC5661CA7EECE003239D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DAC5641CA7EECE003239D0 /* Main.storyboard */; };
 		E4DAC5681CA7EECE003239D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DAC5671CA7EECE003239D0 /* Assets.xcassets */; };
 		E4DAC56E1CA7EF39003239D0 /* TVMLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DAC56D1CA7EF38003239D0 /* TVMLKit.framework */; };
 		E4DAC56F1CA7EF40003239D0 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DAC5391C9EF164003239D0 /* AVKit.framework */; };
@@ -114,7 +113,6 @@
 		E4DAC55C1CA7EECE003239D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4DAC55E1CA7EECE003239D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4DAC55F1CA7EECE003239D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E4DAC5651CA7EECE003239D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4DAC5671CA7EECE003239D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4DAC5691CA7EECE003239D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4DAC56D1CA7EF38003239D0 /* TVMLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVMLKit.framework; path = System/Library/Frameworks/TVMLKit.framework; sourceTree = SDKROOT; };
@@ -310,7 +308,6 @@
 				E4DAC55F1CA7EECE003239D0 /* AppDelegate.m */,
 				E4DAC5711CA7FD24003239D0 /* MoviePlayer.h */,
 				E4DAC5741CA81A94003239D0 /* MoviePlayer.m */,
-				E4DAC5641CA7EECE003239D0 /* Main.storyboard */,
 				E4DAC5671CA7EECE003239D0 /* Assets.xcassets */,
 				E4DAC5691CA7EECE003239D0 /* Info.plist */,
 				E4DAC55B1CA7EECE003239D0 /* Supporting Files */,
@@ -445,7 +442,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4DAC5681CA7EECE003239D0 /* Assets.xcassets in Resources */,
-				E4DAC5661CA7EECE003239D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,14 +536,6 @@
 				E4DAC5081C98CAEE003239D0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		E4DAC5641CA7EECE003239D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4DAC5651CA7EECE003239D0 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -750,6 +738,7 @@
 				E4DAC56B1CA7EECE003239D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

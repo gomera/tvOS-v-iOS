@@ -24,6 +24,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    // Esto es unico codigo que se necesita del lado nativo cuando usamos TVMLKit, el resto es un plus para
+    // hacer bridge entre JS y Nativo, lo que obviamente es opcional.
     self.tvContext = [[TVApplicationControllerContext alloc] init];
     self.tvContext.javaScriptApplicationURL = [NSURL URLWithString:URL_JS];
     self.tvContext.launchOptions = @{@"BASEURL": BASE_URL};
@@ -31,6 +33,7 @@
     
     
     // Entry point para poder registrar clases nativas y poder accederlas desde javascript (JSContext hace magia pero de la linda)
+    // Para mas informacion, mirar MoviePlayer.h
     [self.tvController evaluateInJavaScriptContext:^(JSContext * _Nonnull context) {
         context[@"MoviePlayer"] = [MoviePlayer class];
     } completion:^(BOOL evaluated) {

@@ -1,4 +1,4 @@
-var resourceLoader;
+var moviesLoader;
 
 App.onLaunch = function(options) {
 	var javascriptFiles = [

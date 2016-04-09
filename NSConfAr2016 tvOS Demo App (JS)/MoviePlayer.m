@@ -32,7 +32,7 @@ static const NSString *MoviePlayerItemStatusContext;
 }
 
 + (nullable instancetype) playerWithVideoURL:(nonnull NSString *)videoURL {
-    return [[MoviePlayer alloc]  initWithVideoURL:videoURL];
+    return [[MoviePlayer alloc] initWithVideoURL:videoURL];
 }
 
 - (void) play {
@@ -51,7 +51,7 @@ static const NSString *MoviePlayerItemStatusContext;
     [self.player addObserver:self forKeyPath:@"status" options:0 context:&MoviePlayerItemStatusContext];
     playerViewController.player = self.player;
     
-    // Looks like a hack, it may actually be a really one :)
+    // Tiene una pinta terrible de hack, quizas lo sea ;)
     [appDelegate.tvController.navigationController.viewControllers.lastObject presentViewController:playerViewController animated:YES completion:nil];
 }
 
