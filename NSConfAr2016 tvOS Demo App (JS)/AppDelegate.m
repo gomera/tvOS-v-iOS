@@ -29,12 +29,15 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.tvContext = [[TVApplicationControllerContext alloc] init];
     self.tvContext.javaScriptApplicationURL = [NSURL URLWithString:URL_JS];
-    self.tvController = [[TVApplicationController alloc] initWithContext:self.tvContext window:self.window delegate:self];
-    NSMutableDictionary *appControllerOptions = [@{@"BASEURL": BASE_URL} mutableCopy];
+    
+    NSMutableDictionary *appControllerOptions = [self.tvContext.launchOptions mutableCopy];
+    appControllerOptions[@"BASEURL"] = BASE_URL;
     for (NSString *key in launchOptions) {
         appControllerOptions[key] = launchOptions[key];
     }
     self.tvContext.launchOptions = appControllerOptions;
+    
+    self.tvController = [[TVApplicationController alloc] initWithContext:self.tvContext window:self.window delegate:self];
     
     
     // Entry point para poder registrar clases nativas y poder accederlas desde javascript (JSContext hace magia pero de la linda)
