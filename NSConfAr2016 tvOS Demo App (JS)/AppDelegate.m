@@ -26,9 +26,17 @@
     
     // Esto es unico codigo que se necesita del lado nativo cuando usamos TVMLKit, el resto es un plus para
     // hacer bridge entre JS y Nativo, lo que obviamente es opcional.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.tvContext = [[TVApplicationControllerContext alloc] init];
     self.tvContext.javaScriptApplicationURL = [NSURL URLWithString:URL_JS];
-    self.tvContext.launchOptions = @{@"BASEURL": BASE_URL};
+    
+    NSMutableDictionary *appControllerOptions = [self.tvContext.launchOptions mutableCopy];
+    appControllerOptions[@"BASEURL"] = BASE_URL;
+    for (NSString *key in launchOptions) {
+        appControllerOptions[key] = launchOptions[key];
+    }
+    self.tvContext.launchOptions = appControllerOptions;
+    
     self.tvController = [[TVApplicationController alloc] initWithContext:self.tvContext window:self.window delegate:self];
     
     
@@ -41,7 +49,7 @@
             NSLog(@"There was an error trying to evaluate MoviePlayer");
         }
     }];
-        
+    
     return YES;
 }
 

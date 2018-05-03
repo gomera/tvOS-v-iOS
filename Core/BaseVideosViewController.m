@@ -32,7 +32,9 @@ static const NSString *ItemStatusContext;
     self.fetchRequest = [FetchMoviesRequest new];
     [self.fetchRequest executeWithCompletion:^(NSArray<Movie *> *movies, NSError *error) {
         self.movies = movies;
+        dispatch_async(dispatch_get_main_queue(), ^{
             [self.tableView reloadData];
+        })
     }];
 }
 

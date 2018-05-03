@@ -44,7 +44,7 @@ static const NSString *MoviePlayerItemStatusContext;
 }
 
 - (void) streamURL:(NSURL*)url {
-    AppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+    AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     AVPlayerViewController *playerViewController = [AVPlayerViewController new];
     
     self.player = [AVPlayer playerWithURL:url];
